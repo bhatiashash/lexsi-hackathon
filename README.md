@@ -29,7 +29,7 @@ Pipeline: CuratorKIT, SafeTune, and AuditKIT (3 Track 2 repos).
 The notebooks live in `notebooks/` in this repo and run on Google Colab:
 
 - Lexsi Baseline Tiny Aya (Tiny Aya Base baseline and MedQA pilots, stopped project): https://colab.research.google.com/drive/1obHfekhJid2kONgj2JqbIZCBoOtzQs79
-- Lexsi Tamper Resistance Expanse 8B: https://colab.research.google.com/drive/1P7JQFjp20TU-vOX2TQdckyz6R2jB8XmR
+- Lexsi Tamper Resistance Expanse 8B: the first notebook was never saved to Drive and is being recreated; link added when the new save is verified.
 - Lexsi Eval Sets Expanse 8B: link added when the run saves it.
 
 ## Docs

@@ -4,6 +4,9 @@ Two Track 2 studies on one model, CohereLabs/aya-expanse-8b, chained from Curato
 
 Notebooks for both studies sit in `notebooks/`. Design documents and the problem statement ranking sit in `docs/`.
 
+- [Study 1: adversarial evaluation sets](notebooks/lexsi-eval-sets-expanse-8b.ipynb)
+- [Study 2: tamper resistance and repair](notebooks/lexsi-tamper-resistance-expanse-8b-merged.ipynb) — the single Project 2 notebook, with the recorded results.
+
 ## Study 1: adversarial evaluation sets
 
 Harmful prompts come from HarmBench (393 unique) and AdvBench (520). Splits use seed 42: tuning 100, held out 300, reserve 513, zero overlap. Safe prompts are the 250 safe XSTest prompts. Each held out prompt runs in direct form and under five deterministic transforms: base64 encoding, leetspeak, an AuditKIT prompt injection template, an AuditKIT jailbreak roleplay template, and an AuditKIT encoding probe.
